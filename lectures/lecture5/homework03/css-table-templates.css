@@ -12,8 +12,7 @@ table {
     table-layout: fixed;
     width: 80%;
     border-collapse: collapse;
-    margin-top: 5rem;
-    margin-left: 10rem;
+    margin: 120px;
     border-radius: 15px;
     overflow: hidden;
    
