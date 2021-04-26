@@ -28,6 +28,10 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    animation: navb 4s;
+    /* animation-iteration-count: 1; */
+    animation-fill-mode:forwards;
+    
 }
 
 .navbar a {
@@ -126,3 +130,26 @@ body {
 .text h1 {
     color: #fff;
 }
+
+
+
+ @keyframes navb {
+    0% {
+        opacity: 0;
+        background-color: #1ab660ad;
+        transform: rotateX(360deg);
+    }
+
+    50% {
+        opacity: .5;
+        background-color: #0f0c0cb7;
+    }
+
+    100% {
+        opacity: 1;
+        background-color: #32947f;
+
+    }
+
+}
+
