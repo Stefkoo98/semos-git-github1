@@ -6,7 +6,7 @@
 /* Header */
 
 header {
-    background-image: url(https://cdn-bnmpo.nitrocdn.com/SIcCiTopOjdJxTVWyYmXLjKkYLggcfbi/assets/static/optimized/wp-content/uploads/2019/09/29f7546718f512f512ab3be5bf441274.Santorini-Evening-in-Santorini-Thira-town-and-Aegean-sea-at-sundown-Greece-Landscape-1000x640.jpg);
+    background-image: url('https://www.1843magazine.com/sites/default/files/styles/il_manual_crop_16_9/public/Santorini-header-V3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -39,6 +39,10 @@ header {
 .project {
     margin: 50px;
     text-align: center;
+    animation: project-text 4s;
+    position: relative;
+    animation-timing-function: ease-in-out;
+   
 }
 
 .project h1 {
@@ -88,6 +92,11 @@ header {
 }
 
 .text p {
-    margin: 20px;
-    
+    margin: 20px;    
+}
+
+
+@keyframes project-text {
+    from {bottom: 300px}
+    to { bottom: 0;}
 }

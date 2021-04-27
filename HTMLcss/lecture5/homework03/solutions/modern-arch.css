@@ -29,7 +29,6 @@ body {
     justify-content: space-around;
     align-items: center;
     animation: navb 4s;
-    /* animation-iteration-count: 1; */
     animation-fill-mode:forwards;
     
 }

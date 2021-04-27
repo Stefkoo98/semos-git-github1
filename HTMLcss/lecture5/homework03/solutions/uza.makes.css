@@ -90,6 +90,7 @@ body {
 .left {
   margin: 100px 0 50px 100px;
   padding: 20px;
+  animation: left-text;
 }
 
 .left h1 {
@@ -111,6 +112,9 @@ body {
   background-color: #297dfa;
   color: #f9f9f9;
   font-size: 1rem;
+  animation: btn-btn 4s;
+  position: relative;
+  animation-timing-function: ease-in-out;
 }
 
 .right {
@@ -135,4 +139,50 @@ body {
 .bottom-right {
   margin: 100px 100px 50px 50px;
   font-size: 2rem;
+  animation: right-text 4s;
+  position: relative;
+  animation-timing-function: ease-in-out;
+}
+
+
+/* animation na class left */
+
+@keyframes left-text {
+  from {right: 800px;}
+  to {right: 0;}
+}
+
+.left div:nth-child(1),
+.left div:nth-child(2) {
+  animation: left-text 4s;
+  position: relative;
+  animation-timing-function: ease-in-out;
+}
+
+
+/* animation na class bottom-right */
+
+@keyframes right-text {
+  from {left: 950px;}
+  to {left: 0;}
+}
+
+
+
+/* animation button */
+
+@keyframes btn-btn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .5;
+    transform: translateY(100px);
+    background-color: #bed116;
+   
+  }
+  100% {
+    opacity: 1;
+  }
+ 
 }
