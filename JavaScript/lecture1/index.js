@@ -75,5 +75,5 @@
 // console.log(godini);
 // console.log(parseInt(10.5));
 
-let flag = true;
-console.log(!flag);
+// let flag = true;
+// console.log(!flag);
