@@ -109,3 +109,7 @@ let firstElement = colors.shift() // go brise prviot element od nizata
 console.log(colors);
 colors.unshift("black"); // dodava na pocetok na nizata
 console.log(colors);
+
+
+
+//toString, sort, join, split, supstream.. da si proveris bato Stefan
