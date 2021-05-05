@@ -50,7 +50,7 @@
 
 // let broj = 10;
 // console.log(broj++);//ke go ispecati brojot pa ke go zgolemi;
-// console.log(++broj);
+// console.log(++broj); 
 
 // ako sobirame string so broj, rezultatot e string so isklucok na ++ ako stringot e broj;
 // let a = "10";
@@ -70,10 +70,10 @@
 // console.log(ime);
 
 // let godini = prompt("Vnesi godini");
-// // godini = Number(godini);
-// godini = parseInt(godini);
+// godini = Number(godini);
+// godini = parseInt(godini);      //parseInt(celi broevi)   //parseFloat(broj i decimali)
 // console.log(godini);
-// console.log(parseInt(10.5));
+// console.log(parseInt(10.9));
 
 // let flag = true;
 // console.log(!flag);
