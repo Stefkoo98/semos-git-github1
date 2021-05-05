@@ -88,6 +88,7 @@ let ime = "Semos"
 // }
 
 
+
 let color = "purple";
 let fruits = new Array("apple, orange, bannana, blueberry");  //ne se koristi tolku cesto
 let colors = ["red", "green", "blue", color];
@@ -109,7 +110,33 @@ let firstElement = colors.shift() // go brise prviot element od nizata
 console.log(colors);
 colors.unshift("black"); // dodava na pocetok na nizata
 console.log(colors);
+console.log(colors.slice(1,4)); // prikazuva del od nizata bez da gi brise elementite od (od a do b,bez b) 
+console.log(colors);
+console.log(colors.splice(1,2)); // (a,b) briseme elementi od a do a+b
+console.log(colors);
 
+colors.splice(1,0,"red","green","aqua") // moze da dodadete novi elementi na pozicijata koja e vnesena kakko prv parametar (a)
+console.log(colors);
 
+console.log(colors.includes("stefan")); // dai postoi elementot vo nizata
+colors.push("red");
+console.log(colors.indexOf("red")); // prviot index na koj se naogja elementot
+console.log(colors.lastIndexOf("redd")); // prviot index na koj se naogja elementot
+// ako elementot ne postoi vo nizata vrakja -1
+console.log(colors.sort());
 
-//toString, sort, join, split, supstream.. da si proveris bato Stefan
+console.log(colors.toString()); // trga stringovi
+console.log(colors.join(" ")) // gi odvojuva/spojuva
+console.log(colors.reverse()); 
+
+let novaNiza = colors.concat(fruits); // dodava drugi nizi dokolku ima :)
+console.log(novaNiza); 
+
+let a = 5
+let b = a;
+b = 10;  // OBJEKT
+
+let niza1 = colors;
+niza1.push("test");
+console.log(colors); // OBJEKT
+
