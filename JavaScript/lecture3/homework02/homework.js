@@ -1,15 +1,15 @@
 // 1. Proizvod na site parni broevi od 1 do 100
 
-// let number = 100;
-// let zbir = 0;
+let number = 100;
+let zbir = 1;
 
-// while(number > 0){
-//     if(number % 2 == 0){
-//         zbir += number;
-//     }
-//     number--;
-// }
-// console.log(zbir)
+while(number > 0){
+    if(number % 2 == 0){
+        zbir *= number;
+    }
+    number--;
+}
+console.log(zbir)
 
 
 
@@ -59,12 +59,12 @@
 
 // 3. Da se presmeta y=x^n (x na stepen n)
 
-let x = Number.parseInt(prompt('Vnesi X'));
-let n = Number.parseInt(prompt('Vnesi N'));
-let y = 1;
+// let x = Number.parseInt(prompt('Vnesi X'));
+// let n = Number.parseInt(prompt('Vnesi N'));
+// let y = 1;
 
-while(n > 0){
-    y = y * x;
-    n--;
-}
-console.log(y);
+// while(n > 0){
+//     y = y * x;
+//     n--;
+// }
+// console.log(y);
