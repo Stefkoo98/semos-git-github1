@@ -1,15 +1,15 @@
 // 1. Proizvod na site parni broevi od 1 do 100
 
-let number = 100;
-let zbir = 1;
+// let number = 100;
+// let zbir = 1;
 
-while(number > 0){
-    if(number % 2 == 0){
-        zbir *= number;
-    }
-    number--;
-}
-console.log(zbir)
+// while(number > 0){
+//     if(number % 2 == 0){
+//         zbir *= number;
+//     }
+//     number--;
+// }
+// console.log(zbir)
 
 
 
