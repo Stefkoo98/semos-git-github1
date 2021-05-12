@@ -43,3 +43,4 @@ while(i<=broj){
     i++;
 }
 console.log(zbir);
+
