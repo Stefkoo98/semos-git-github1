@@ -68,8 +68,8 @@
 // console.log(y);
 
 
-let niza = [1,2,3,4,6,20,30];
+// let niza = [1,2,3,4,6,20,30];
 
-for(i = 0; i<niza.length; i++){
-    console.log(niza[i]);
-}
+// for(i = 0; i<niza.length; i++){
+//     console.log(niza[i]);
+// }
