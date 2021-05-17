@@ -28,18 +28,16 @@
 // 2. Да се напише програма коjа на екран ќе ги испечати сите четири-цифрени броеви каj кои збирот на трите наjмалку значаjни цифри е еднаков со наjзначаjната цифра  Пр:4022 4=0+2+2.
 
 
-for(let i = 1000; i<9999; i++){
-    let edinici = i%10;
-    let desetki = Math.floor(((i % 100) - edinici) / 10);
-    let stotki = Math.floor(((i % 1000) - (desetki + edinici)) / 100);
-    let iljadarki = Math.floor(i / 1000);
+// for(let i = 1000; i<9999; i++){
+//     let edinici = i%10;
+//     let desetki = Math.floor(((i % 100) - edinici) / 10);
+//     let stotki = Math.floor(((i % 1000) - (desetki + edinici)) / 100);
+//     let iljadarki = Math.floor(i / 1000);
 
-    if(iljadarki === edinici + desetki + stotki){
-        console.log(i);
-    }
-}
-
-
+//     if(iljadarki === edinici + desetki + stotki){
+//         console.log(i);
+//     }
+// }
 
 
 
