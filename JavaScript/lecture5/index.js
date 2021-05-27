@@ -10,7 +10,7 @@
 
 // let zbir = 0;
 
-// for(i - 0; i<niza.length; i++){
+// for(i = 0; i<niza.length; i++){
 //     if(niza[i]%2==1){
 //         zbir+=niza[i];
 //     }
@@ -63,14 +63,14 @@
 // }
 
 
-let fruits = [["Banana","Orange"],"Apple","Mango","Kiwi",["Lemon","Strawberry"]];
+// let fruits = [["Banana","Orange"],"Apple","Mango","Kiwi",["Lemon","Strawberry"]];
 
-for(let i = 0; i<fruits.length; i++){
-    // console.log(fruits[i]);
-    if(Array.isArray(fruits[i])){
-        let niza2 = fruits[i];
-        for(j = 0; j<niza2.length; j++){
-            console.log(niza2[j]);
-        }
-    }
-}
+// for(let i = 0; i<fruits.length; i++){
+//     // console.log(fruits[i]);
+//     if(Array.isArray(fruits[i])){
+//         let niza2 = fruits[i];
+//         for(j = 0; j<niza2.length; j++){
+//             console.log(niza2[j]);
+//         }
+//     }
+// }
