@@ -11,7 +11,7 @@
 // console.log(person);
 
 
-// let kola = {motor:"2.5",proizvoditel:"Audi",godina:2020,model:"A6",boja:"siva"};
+// let kola = {motor:"3.0",proizvoditel:"Audi",godina:2020,model:"A6",boja:"siva"};
 
 // let klucevi = Object.keys(kola); // pokazuva site klucevi vo promenlivata
 // console.log(klucevi.length);
@@ -34,7 +34,7 @@
 
 // let niza = [10,12,4,5,8,3];
 
-// "for" za nizi    niza[i]  - za sekoj element od niza
+// // "for" za nizi    niza[i]  - za sekoj element od niza
 // for(element of niza){
 //     console.log(element) 
 // }
@@ -46,10 +46,10 @@
 
 
 
-let testovi = [{ime:"Stefan",poeni:97},{ime:"Tamara",poeni:80}];
-let zbir = 0;
+// let testovi = [{ime:"Stefan",poeni:97},{ime:"Tamara",poeni:80}];
+// let zbir = 0;
 
-for(prosek of testovi){
-    zbir += prosek.poeni;
-}
-console.log(zbir/testovi.length);
+// for(prosek of testovi){
+//     zbir += prosek.poeni;
+// }
+// console.log(zbir/testovi.length);
