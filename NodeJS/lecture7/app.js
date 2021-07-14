@@ -2,10 +2,9 @@ const createError = require('http-errors');
 const express = require('express');
 const path = require('path');
 
-
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
-const productsRouter = require('./routes/products')
+const productsRouter = require('./routes/products');
 
 const app = express();
 

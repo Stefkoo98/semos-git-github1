@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
 
-/* GET home page. */
 router.get('/', (req, res) => {
-  res.render('index', { title: 'Express' });
+  let name = 'Stefan Simjanovski'
+  res.render('index', { title: 'Express', name: name });
 });
 
 module.exports = router;
