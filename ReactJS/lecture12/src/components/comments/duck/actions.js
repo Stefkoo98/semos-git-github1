@@ -21,8 +21,56 @@ const fetchCommentsFail = (error) => {
     }
 }
 
+const deleteCommentsRequest = (requestParams) => {
+    return {
+        type: constants.DELETE_COMMENTS_REQUEST,
+        payload: requestParams
+    }
+}
+
+const deleteCommentsSuccess = (commentId) => {
+    return {
+        type: constants.DELETE_COMMENTS_SUCCESS,
+        payload: commentId
+    }
+}
+
+const deleteCommentsFail = (error) => {
+    return {
+        type: constants.DELETE_COMMENTS_FAIL,
+        payload: error
+    }
+}
+
+const editCommentsRequest = (requestParams) => {
+    return {
+        type: constants.EDIT_COMMENTS_REQUEST,
+        payload: requestParams
+    }
+}
+
+const editCommentsSuccess = (comment) => {
+    return {
+        type: constants.EDIT_COMMENTS_SUCCESS,
+        payload: comment
+    }
+}
+
+const editCommentsFail = (error) => {
+    return {
+        type: constants.EDIT_COMMENTS_FAIL,
+        payload: error
+    }
+}
+
 export default {
     fetchCommentsRequest,
     fetchCommentsSuccess,
-    fetchCommentsFail
+    fetchCommentsFail,
+    deleteCommentsRequest,
+    deleteCommentsSuccess,
+    deleteCommentsFail,
+    editCommentsRequest,
+    editCommentsSuccess,
+    editCommentsFail
 }

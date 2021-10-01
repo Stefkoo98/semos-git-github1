@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom'
 
 export function CommentsComponent(props) {
 
@@ -11,6 +12,7 @@ export function CommentsComponent(props) {
                     <tr>
                         <th>Name</th>
                         <th>E-mail</th>
+                        <th>Actions</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -23,6 +25,11 @@ export function CommentsComponent(props) {
                                 <td>
                                     {comment.email}
                                 </td>
+                                <td>
+                                    <button onClick={() => props.editComment(comment)}>Edit</button>
+                                    <button onClick={() => props.deleteComment(comment.id)}>Delete</button>
+                                    <Link to={`/comment/${comment.id}`}><button>Go to Comments</button></Link>
+                                </td>
                             </tr>
                         )
                     })}
@@ -34,5 +41,7 @@ export function CommentsComponent(props) {
 
 CommentsComponent.propTypes = {
     listOfComments: PropTypes.arrayOf(PropTypes.object).isRequired,
-    error: PropTypes.string
+    error: PropTypes.string,
+    deleteComment: PropTypes.func,
+    editComment: PropTypes.func
 }
