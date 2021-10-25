@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "first_name": "Pero",
+        "last_name": "Perovski",
+        "gpa": 8.3
+    },
+    {
+        "id": 2,
+        "first_name": "Mara",
+        "last_name": "Marovska",
+        "gpa": 9.5
+    },
+    {
+        "id": 3,
+        "first_name": "Kosta",
+        "last_name": "Petrov",
+        "gpa": 7.9
+    }
+]
