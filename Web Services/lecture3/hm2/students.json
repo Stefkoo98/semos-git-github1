@@ -1,0 +1,22 @@
+[
+    {
+        "first_name": "Marko",
+        "last_name": "Markovski",
+        "gpa": 8.9
+    },
+    {
+        "first_name": "Iko",
+        "last_nameee": "Petkovski",
+        "gpa": 8.3
+    },
+    {
+        "first_name": "Darko",
+        "last_name": "Sarkovski",
+        "gpa": 9.2
+    },
+    {
+        "first_name": "STEF",
+        "last_nameee": "Stefkovski",
+        "gpa": 7.5
+    }
+]
