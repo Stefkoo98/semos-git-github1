@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Ol'Dirty Bastard The Dirty Version",
+        "author": "Mickey Hess, Buddha Monk",
+        "genre": "HipHop/Rap",
+        "year": 2014,
+        "price": 30
+    },
+    {
+        "id": 2,
+        "name": "The subtle art of not giving a fuck",
+        "author": "Mark Manson",
+        "genre": "Self-help",
+        "year": 2016,
+        "price": 40
+    },
+    {
+        "id": 3,
+        "name": "The way of Zen",
+        "author": "Alan Watts",
+        "genre": "Non-fiction",
+        "year": 1957,
+        "price": 18
+    }
+]

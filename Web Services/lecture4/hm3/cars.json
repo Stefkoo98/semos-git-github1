@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Audi",
+        "model": "A6",
+        "year": 2014,
+        "engine": 3
+    },
+    {
+        "id": 2,
+        "name": "Mitsubitshi",
+        "model": "Lancer-EVO",
+        "year": 1998,
+        "engine": 2
+    },
+    {
+        "id": 3,
+        "name": "Nissan",
+        "model": "Skyline R34",
+        "year": 2002,
+        "engine": 2.6
+    }
+]
