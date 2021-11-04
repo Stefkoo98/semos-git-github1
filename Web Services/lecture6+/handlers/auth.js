@@ -34,7 +34,8 @@ const login = async (req, res) => {
 };
 
 const validate = (req, res) => {
-    res.status(200).send('ok');
+    console.log(req.user)
+    res.status(200).send(`Hello ${req.user.full_name} with email: ${req.user.email}`);
 };
 
 const createAccount = async (req, res) => {
