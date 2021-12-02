@@ -1,0 +1,25 @@
+{
+    "security": {
+        "algorithms": [
+            "HS256"
+        ],
+        "secret": "secretpassword"
+    },
+    "app": {
+        "port": 4000,
+        "upload_dir": "files",
+        "max_filesize": 1048576,
+        "allowed_filetypes": [
+            "image/jpg",
+            "image/jpeg",
+            "image/pjpg",
+            "image/png",
+            "image/gif"
+        ]
+    },
+    "mailer": {
+        "key": "a01b296a5347a6de81f8924a6a9f462a-7dcc6512-f5d6a75d",
+        "domain": "sandboxd191c410dccf47adbd60824fe69f4ea6.mailgun.org",
+        "default_address": "noreply@domain.com"
+    }
+}
